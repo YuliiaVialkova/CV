@@ -3,9 +3,97 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
     <title>CV</title>
   </head>
   <body>
-    <h1>Yuliia Vialkova</h1>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__content">
+          <div class="header__left">
+            <h1 class="header__title">Yuliia Vialkova</h1>
+            <p class="header__subtitle">Junior Frontend Developer</p>
+          </div>
+          <div class="header__right">
+            <div class="header__img-wrp">
+              <img class="header__img" src="/img/main-photo.jpg" alt="Photo Yuliia Vialkova"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="main-page">
+      <div class="main-page__container">
+        <div class="main-page__content">
+          <aside class="main-page__left">
+            <section class="personal-details string-bottom">
+              <h2>Personal details</h2>
+              <p class="personal-details__age">Age: 37 years</p>
+              <address class="personal-details__address">Ivano-Frankivsk, Ukraine</address>
+              <a class="personal-details__tel" href="tel:+380954490649">+38 095 449-06-49</a>
+              <a class="personal-details__mail" href="mailto:julia.zagrafova@gmail.com">julia.zagrafova@gmail.com</a>
+            </section>
+            <section class="socials string-bottom">
+              <h2>Links</h2>
+              <ul class="socials__list">
+                <li class="socials__item">
+                  <a class="socials__link" href="https://www.facebook.com/profile.php?id=100011540223384">Facebook</a>
+                </li>
+                <li class="socials__item">
+                  <a class="socials__link" href="https://www.instagram.com/juliavyalkova/">Instagram</a>
+                </li>
+                <li class="socials__item">
+                  <a class="socials__link" href="https://www.linkedin.com/in/yuliia-vialkova-844b1224a/">Linkedin</a>
+                </li>
+              </ul>
+            </section>
+            <section class="languages">
+              <h2>Languages</h2>
+              <ul>
+                <li>Ukrainian - Fluent</li>
+                <li>Russian - Native</li>
+                <li>English - Intermediate</li>
+              </ul>
+            </section>
+          </aside>
+          <main  class="main-page__right">
+             <section class="education">
+              <h2>Education</h2>
+              <ul>
+                <li>European University (Donetsk, Ukraine)
+                  <p>Graduated: 2008</p>
+                  <p>Qualification: manager-economist</p>
+                </li>
+                <li>Now studying for Beetroot Academy
+                  <p>Course: Front-end Development</p>
+                </li>
+              </ul>
+            </section>
+            <section class="work">
+              <h2 class="work__title">Work experience</h2>
+              <ul class="work__list">
+                <li>Worked for 9 years in purchasing at the same company.
+                  <ul>Responsibilities:
+                    <li>document management</li>
+                    <li>supplier relations</li>
+                    <li>ordering and coordinating the delivery of goods</li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+            <section class="skills">
+              <h2>Skills</h2>
+              <ul class="skills__list">
+                <li>HTML, CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </section>
+          </main>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
